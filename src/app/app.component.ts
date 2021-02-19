@@ -1,6 +1,7 @@
 import { Component} from "@angular/core";
 import { SpaceAPIDataService } from "./spaceData/space-apidata.service";
 import { Router } from "@angular/router";
+import { HttpClient} from "@angular/common/http";
 
 @Component({
   selector: "app-root",

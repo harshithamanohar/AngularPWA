@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient,HttpClientModule } from "@angular/common/http";
+import { HttpClient} from "@angular/common/http";
 import { Observable } from "rxjs";
 
 @Injectable({
@@ -8,7 +8,7 @@ import { Observable } from "rxjs";
 export class SpaceAPIDataService {
   apiUrl = "https://api.spacexdata.com/v3/launches?";
 
-  constructor(private Http: HttpClient) {}
+  constructor(private Http: HttpClient) {};
 
   getAll(launchYear:any, launchSuccess:any, landSuccess:any): Observable<any> {
     return this.Http.get(
