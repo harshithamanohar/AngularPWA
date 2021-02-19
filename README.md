@@ -7,7 +7,9 @@ Get started
 Clone the repository and build :
 
 git clone https://github.com/harshithamanohar/AngularPWA.git
+
 cd intern-angular
+
 npm start
 
 Note: Minimum version of node.js required is v10 and above.
