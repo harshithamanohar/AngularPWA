@@ -1,36 +1,24 @@
-AngularPWA
+# AngularPWA
 
 This is a reponsive webpage build using Angular 8,CSS3 amd HTML5.
 
-Get started
+## Get started
+```bash
+Clone the repository and build
 
-Clone the repository and build 
-git clone git@github.com:harshithamanohar/AngularPWA.git
-cd intern-angular
-npm start
+* git clone https://github.com/harshithamanohar/AngularPWA.git
+* cd intern-angular
+* npm start
+* open app in browser using url http://localhost:4200
+```
 
 Note: Minimum version of node.js required is v10 and above.
 
-Project Live URL : https://angular-pwd.herokuapp.com/
-
-Snapshots:
-
-1.Desktop:
- 		
-     
- 
- 
- 
+## Project Live URL
+[Angular PWA](https://angular-pwd.herokuapp.com/)
 
 
-2. Tablet:
 
-	
- 
-
- 
-
-3. Mobile:
 
    
 
