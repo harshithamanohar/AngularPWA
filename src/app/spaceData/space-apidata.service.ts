@@ -11,7 +11,7 @@ export class SpaceAPIDataService {
   constructor(private http: HttpClient) {};
 
   getAll(launchYear:any, launchSuccess:any, landSuccess:any): Observable<any> {
-    return this.http.get(
+    return this.http.get<any>(
       this.apiUrl +
         "launch_year=" +
         launchYear +
@@ -23,7 +23,7 @@ export class SpaceAPIDataService {
   }
 
   getLaunchLand(launchSuccess:any, landSuccess:any): Observable<any> {
-    return this.http.get(
+    return this.http.get<any>(
       this.apiUrl +
         "&launch_success=" +
         launchSuccess +
@@ -33,19 +33,19 @@ export class SpaceAPIDataService {
   }
 
   getAllLaunches(): Observable<any> {
-    return this.http.get(this.apiUrl);
+    return this.http.get<any>(this.apiUrl);
   }
 
   getYear(param:any): Observable<any> {
-    return this.http.get(this.apiUrl + "launch_year=" + param);
+    return this.http.get<any>(this.apiUrl + "launch_year=" + param);
   }
 
   getLaunches(param:any): Observable<any> {
-    return this.http.get(this.apiUrl + "launch_success=" + param);
+    return this.http.get<any>(this.apiUrl + "launch_success=" + param);
   }
 
   getLand(param:any): Observable<any> {
-    return this.http.get(this.apiUrl + "land_success=" + param);
+    return this.http.get<any>(this.apiUrl + "land_success=" + param);
   
   }
 }
