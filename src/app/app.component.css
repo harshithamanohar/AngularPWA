@@ -1,0 +1,90 @@
+.txt-center,.img-container,.footer{
+    text-align:center;
+}
+.container,.img-container{
+    font-family:Arial, sans-serif;
+    background-color:#F2F2F2;
+}
+.btn-green{
+    background-color: #C6E098;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.btn-green:hover,.btn-green:focus{
+    background-color:#7BBB01;
+}
+.content{
+    display:flex;
+}
+.left-content{
+    width:20%;
+    background: #FFF;
+    padding: 1rem;
+    height: max-content;
+}
+.right-content,.filter-year,.filter-launch,.filter-land{
+    display:flex;
+    flex-wrap: wrap;
+}
+.launch-card{
+    background: #FFF;
+    padding: 1rem;
+    margin:0 10px 10px 10px;
+    height: max-content;
+    width: 20%;
+}
+.card-img{
+    width: 65%;
+}
+.footer{
+    font-size: 20px;
+    padding: 1rem;
+}
+.card-inner h4:first-of-type{
+    color:#5056A6;
+}
+.card-inner h4 span,.card-inner h4 li{
+    color:#707070;
+}
+.width-right{
+    width:80%;
+}
+.width-filter{
+    width:50%;
+}
+hr
+{
+    width:65%;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    .left-content{
+        width:33%;
+    }
+    .width-right{
+        width:66%;
+    }
+    .launch-card{
+        width:37%;
+    }
+}
+
+@media only screen and (max-width: 699px)
+{
+    .left-content,.width-right,.launch-card{
+      width:100%;
+      margin: 0 0 20px 0;
+    }
+    .left-content h3{
+        padding: 1rem;
+    }
+    .left-content{
+        padding: 0;
+    }
+    .content{
+        display:block;
+    }
+}

@@ -1,27 +1,48 @@
-# AngularPWA
+AngularPWA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+This is a reponsive webpage build using Angular 8,CSS3 amd HTML5.
 
-## Development server
+Get started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone the repository and build 
+git clone git@github.com:harshithamanohar/AngularPWA.git
+cd intern-angular
+npm start
 
-## Code scaffolding
+Note: Minimum version of node.js required is v10 and above.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Project Live URL : https://angular-pwd.herokuapp.com/
 
-## Build
+Snapshots:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1.Desktop:
+ 		
+     
+ 
+ 
+ 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Tablet:
 
-## Running end-to-end tests
+	
+ 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ 
 
-## Further help
+3. Mobile:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   
+
+
+
+
+     
+
+
+
+
+
+
+
+
